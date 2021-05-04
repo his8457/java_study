@@ -1,4 +1,4 @@
-package java_study;
+package operator;
 
 public class Operator_01 {
 
