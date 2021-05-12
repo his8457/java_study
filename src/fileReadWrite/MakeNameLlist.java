@@ -35,23 +35,20 @@ public class MakeNameLlist {
 			}
 		}
 		
-		File file = new File("src/fileReadWrite/test.txt");
+		File file = new File("src/fileReadWrite/hundredNames.txt");
 		System.out.println(file.getAbsolutePath());
 		
 		FileWriter fw = null;
 		try {
-			//fw = new FileWriter("hundredNames.txt");
 			fw = new FileWriter(file);
 			fw.write(strNames.toString());
 			fw.flush();
 		} catch (IOException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}finally {
 			try {
 				fw.close();
 			} catch (IOException e) {
-				// TODO Auto-generated catch block
 				e.printStackTrace();
 			}
 		}
