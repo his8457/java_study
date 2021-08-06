@@ -10,16 +10,12 @@ public class Prac1_TwoDimension {
 		
 		int minNum = (int)ch1;
 		int maxNum = (int)ch2;
-		
-		double dbNum = Math.random();
-		int ranNum = minNum - (int)(dbNum * minNum);
-		
 		String result = "";
 		
 		for(int i = 0; i < twoDs.length; i++) {
 			for(int j = 0; j < twoDs[i].length; j++) {
-				dbNum = Math.random();
-				ranNum = minNum - (int)(dbNum * minNum);			
+				double dbNum = Math.random();
+				int ranNum = minNum + (int)(Math.round(dbNum * (maxNum-minNum)));
 				twoDs[i][j] = (char) ranNum;
 				
 				charResult = twoDs[i][j];
