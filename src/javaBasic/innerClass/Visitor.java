@@ -1,4 +1,4 @@
-package inner_class;
+package javaBasic.innerClass;
 
 public class Visitor {//정적 내부 클레스
 	

@@ -1,4 +1,4 @@
-package interface_.calculator;
+package javaBasic.interface1.calculator;
 
 public class Program {
 	public static void main(String[] args) {

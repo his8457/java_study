@@ -1,4 +1,4 @@
-package inner_class;
+package javaBasic.innerClass;
 
 public class MainRun {
 	public static void main(String[] args) {

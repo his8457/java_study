@@ -1,16 +1,16 @@
-package object;
+package javaBasic.object;
 
-import inner_class.Visitor;
+import javaBasic.innerClass.Visitor;
 
-public class CallByValue {
+public class CallByValue {//원래값이 영향을 받지 않음.
 	public static void main(String[] args) {
 		Visitor visitor = new Visitor();
 		visitor.setName("홍길동");
 		visitor.setAge(55);
-		
 		System.out.println("before run : " + visitor.hashCode());
 		
 		Visitor changedVisitor = CallByValue.changeVisitor(visitor);
+		
 		System.out.println("after run : " + visitor.hashCode() + ", age: " + visitor.getAge() + ", name : " + visitor.getName());
 		System.out.println("after run changed : " + changedVisitor.hashCode() + ", age: " + changedVisitor.getAge() + ", name : " + changedVisitor.getName());
 	}

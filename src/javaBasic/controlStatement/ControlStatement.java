@@ -1,4 +1,4 @@
-package controlStatement;
+package javaBasic.controlStatement;
 
 public class ControlStatement {
 	public static void main(String[] args) {

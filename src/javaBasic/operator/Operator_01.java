@@ -1,4 +1,4 @@
-package operator;
+package javaBasic.operator;
 
 public class Operator_01 {
 

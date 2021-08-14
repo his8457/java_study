@@ -1,4 +1,4 @@
-package interface_.calculator;
+package javaBasic.interface1.calculator;
 
 public class Calculator2 extends Calculator1{
 

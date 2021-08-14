@@ -1,4 +1,4 @@
-package interface_.calculator;
+package javaBasic.interface1.calculator;
 
 public interface Calculator {
 	final double PIE = 3.14f;

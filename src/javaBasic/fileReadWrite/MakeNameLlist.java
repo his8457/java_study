@@ -1,4 +1,4 @@
-package fileReadWrite;
+package javaBasic.fileReadWrite;
 
 import java.io.File;
 import java.io.FileWriter;
@@ -35,7 +35,7 @@ public class MakeNameLlist {
 			}
 		}
 		
-		File file = new File("src/fileReadWrite/hundredNames.txt");
+		File file = new File("src/javaBasic/fileReadWrite/hundredNames.txt");
 		System.out.println(file.getAbsolutePath());
 		
 		FileWriter fw = null;

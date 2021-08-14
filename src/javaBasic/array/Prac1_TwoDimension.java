@@ -1,4 +1,4 @@
-package array;
+package javaBasic.array;
 
 public class Prac1_TwoDimension {
 	public static void main(String[] args) {
